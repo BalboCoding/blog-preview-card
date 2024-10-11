@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const pxToRem = (px,base=16) => `${px/base}rem`
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
@@ -12,6 +13,14 @@ module.exports = {
       fontFamily:{
         sans: ['Figtree', 'sans-serif'],
       },
+      maxWidth:{
+        "minsm":pxToRem(329),
+        "maxmd":pxToRem(386),
+      },
+      minHeight:{
+        "minsm":pxToRem(502),
+        "minmd":pxToRem(524)
+      }
     },
   },
   plugins: [

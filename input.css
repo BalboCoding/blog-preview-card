@@ -7,6 +7,13 @@
 @layer components{
     .text-preset-bold{@apply leading-[150%] tracking-[0] font-[800]}
     .text-preset-medium{@apply leading-[150%] tracking-[0] font-[500]}
-    .attribution { @apply text-[11px] text-center }
+    .attribution { @apply text-[11px] text-center mt-4 }
     .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+@layer utilities{
+    .shadow-custom {
+        @apply shadow-none;
+        box-shadow: 10px 10px 10px hsl(0, 0%, 7%);
+    }
 }
