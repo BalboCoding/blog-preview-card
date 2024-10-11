@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .text-preset-bold{@apply leading-[150%] tracking-[0] font-[800]}
+    .text-preset-medium{@apply leading-[150%] tracking-[0] font-[500]}
+    .attribution { @apply text-[11px] text-center }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
