@@ -20,6 +20,13 @@ module.exports = {
       minHeight:{
         "minsm":pxToRem(502),
         "minmd":pxToRem(524)
+      },
+      fontSize:{
+        "12px":pxToRem(12),
+        "14px":pxToRem(14),
+        "20px":pxToRem(20),
+        "24px":pxToRem(24),
+        "16px":pxToRem(16)
       }
     },
   },

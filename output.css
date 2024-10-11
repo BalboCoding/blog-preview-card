@@ -601,16 +601,12 @@ body{
   min-height: 200px;
 }
 
-.min-h-\[502px\]{
-  min-height: 502px;
+.min-h-minsm{
+  min-height: 31.375rem;
 }
 
 .min-h-screen{
   min-height: 100vh;
-}
-
-.min-h-minsm{
-  min-height: 31.375rem;
 }
 
 .w-8{
@@ -704,8 +700,16 @@ body{
   padding-bottom: 0.25rem;
 }
 
-.text-\[12px\]{
-  font-size: 12px;
+.text-12px{
+  font-size: 0.75rem;
+}
+
+.text-14px{
+  font-size: 0.875rem;
+}
+
+.text-\[20px\]{
+  font-size: 20px;
 }
 
 .text-sm{
@@ -713,9 +717,8 @@ body{
   line-height: 1.25rem;
 }
 
-.text-xl{
+.text-20px{
   font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-customGray500{
@@ -745,10 +748,6 @@ body{
 }
 
 @media (min-width: 768px){
-  .md\:min-h-\[524px\]{
-    min-height: 524px;
-  }
-
   .md\:min-h-minmd{
     min-height: 32.75rem;
   }
@@ -757,18 +756,23 @@ body{
     max-width: 24.125rem;
   }
 
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .md\:text-sm{
+  .md\:text-14px{
     font-size: 0.875rem;
-    line-height: 1.25rem;
+  }
+
+  .md\:text-\[16px\]{
+    font-size: 16px;
+  }
+
+  .md\:text-\[24px\]{
+    font-size: 24px;
+  }
+
+  .md\:text-16px{
+    font-size: 1rem;
+  }
+
+  .md\:text-24px{
+    font-size: 1.5rem;
   }
 }
