@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Page Solution](https://your-solution-url.com)
-- Live Site URL: [GitHub Page Live demo](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Page Solution](https://www.frontendmentor.io/solutions/blog-preview-card-using-tailwindcss-TMnbyMf180)
+- Live Site URL: [GitHub Page Live demo](https://balbocoding.github.io/blog-preview-card/)
 
 ## My process
 
